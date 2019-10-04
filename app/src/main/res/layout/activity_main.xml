@@ -9,14 +9,27 @@
 
 
     <Button
+        android:id="@+id/takeBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="20dp"
         android:background="@color/blue"
         android:padding="10dp"
-        android:id="@+id/takeBtn"
         android:text="take a Phone"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/chooseBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@color/blue"
+        android:padding="10dp"
+        android:text="Choose a Phone"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#fff" />
